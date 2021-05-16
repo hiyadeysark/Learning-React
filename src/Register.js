@@ -1,7 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Signup from './Signup.js'
+
 
 const Register = () => {
+
     return (
         <div>
             <>
@@ -40,53 +43,10 @@ const Register = () => {
     </div>
   </div>
   {/* Page Header End */}
+  
   {/*Registration From*/}
-  {/*Registration hello hello From*/}
-  {/*Registration From*/}
-  <div className="contact bg-img">
-    <div className="container">
-      <div className="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-        <p>Sign up with</p>
-        <h2>STree</h2>
-      </div>
-      <div className="row">
-        <div className="col-12 wow fadeInUp" data-wow-delay="0.1s">
-          <div className="contact-form">
-            <div id="success" />
-            <form name="sentMessage" id="contactForm" noValidate="novalidate">
-              <div className="form-group">
-                <input type="text" className="form-control" id="name" placeholder="Name" name="name" required="required" data-validation-required-message="Please enter your name" />
-                <p className="help-block text-danger" />
-              </div>
-              <div className="form-group">
-                <input type="email" className="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                <p className="help-block text-danger" />
-              </div>
-              <div className="form-group">
-                <input type="text" className="form-control" id="address" placeholder="Address" required="required" data-validation-required-message="Please enter your address" />
-                <p className="help-block text-danger" />
-              </div>
-              <div className="form-group">
-                <input type="password" className="form-control" id="password" placeholder="Password" required="required" data-validation-required-message="Please enter a password" />
-                <p className="help-block text-danger" />
-              </div>
-              <div className="form-group">
-                <input type="password" className="form-control" id="confirmpassword" placeholder="Confirm password" required="required" data-validation-required-message="Please enter confirm password" />
-                <p className="help-block text-danger" />
-              </div>
-              <div className="form-group">
-                <textarea className="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message" defaultValue={""} />
-                <p className="help-block text-danger" />
-              </div>
-              <div>
-                <button className="btn" type="submit" id="sendMessageButton">Sign up</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <Signup></Signup>
+
 </>
 
         </div>
